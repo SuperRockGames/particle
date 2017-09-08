@@ -1,6 +1,6 @@
-$main: #FFF;
-$sec: #FFF;
-$purple: #FFF;
+$main: #d3d3d3;
+$sec: #d3d3d3;
+$purple: #d3d3d3;
 $cut: 768px;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -55,8 +55,8 @@ body {
 }
 
 #particles-js {
-  background: #FFF;
-  color: #FFF;
+  background: #d3d3d3;
+  color: #d3d3d3;
   display: block;
   vertical-align: bottom;
   width: 100vw;
@@ -65,7 +65,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   .particles-js-canvas-el {
-    color:#FFF;
+    color: #d3d3d3;
     width:100vw !important;
     height:100vh !important;
   }
@@ -74,7 +74,7 @@ body {
 .content {
   z-index: 1;
   text-align: center;
-  color:#FFF;
+  color: #d3d3d3;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -100,7 +100,7 @@ body {
     }
   }
   .link {
-    color: #FFF;
+    color: #d3d3d3;
     display: inline-flex;
     justify-content: space-between;
     text-decoration: none;
@@ -118,7 +118,7 @@ body {
   text-align: center;
   .icon {
     text-align: center;
-    color: #FFF;
+    color: #d3d3d3;
     width: 20px;
     height: 20px;
     font-size: 20px;
@@ -129,11 +129,11 @@ body {
     transition: all .7s;
     &:hover {
       color: $main;
-      background: #FFF;
+      background: #d3d3d3;
     }
     &:active {
       color: $main;
-      background: #FFF;
+      background: #d3d3d3;
     }
     @media only screen and (min-width:$cut) {
       width: 35px;
@@ -144,7 +144,7 @@ body {
 }
 
 .down {
-  color: #FFF;
+  color: #d3d3d3;
   position: absolute;
   bottom: 25px;
   width: 100%;
@@ -237,7 +237,7 @@ body {
   &:hover {
     background-color: $purple;
     border-color: $purple;
-    color: #fff;
+    color: #d3d3d3;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
@@ -245,7 +245,7 @@ body {
   &:active {
     background-color: $purple;
     border-color: $purple;
-    color: #fff;
+    color: #d3d3d3;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
@@ -257,14 +257,14 @@ body {
   padding: 10px 0;
   margin-top: 100px;
   text-align: center;
-  color: #FFF;
+  color: #d3d3d3;
   .love {
     color: red;
   }
   a {
     text-decoration: none;
     margin: 0;
-    color: #FFF;
+    color: #d3d3d3;
     &:hover{
       color: $sec;
     }
